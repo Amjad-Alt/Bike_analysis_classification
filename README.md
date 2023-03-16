@@ -1,5 +1,5 @@
 # GOCO Bike Sharing System Analysis/Machine Learning
-This project analyzes six months of data from the GOCO bike sharing system, which was obtained from the company's official website[https://cogobikeshare.com/system-data.]
+This project analyzes six months of data from the GOCO bike sharing system, which was obtained from the company's official website"[https://cogobikeshare.com/system-data.]"
 The data was cleaned and processed to create new columns, and statistical analysis was performed to identify trends and patterns in the usage of the system. Then we proceed to apply various machine learning models to detect customers' behaviours to suggest a strategy to increase the company's profit.
 
 ## Methodology
