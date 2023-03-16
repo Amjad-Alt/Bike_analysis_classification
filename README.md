@@ -42,7 +42,7 @@ Based on the findings, we recommend the following actions for the GOCO bike shar
 - Reduce the time boundary to 20 minutes for one-time users, and increase the price margin for Classic bikes used over 30 mins.
 
 ## Machine Learning Model
-For the machine learning part, we have done logistic regression to classify one-time customers and annual customers. Based on five variables the model achieved an 87% accuracy, which indicates that it is performing well in detecting the behaviour of one-time and annual customers. We also applied McFadden and AUC/ROC tests to verify the performance of the model, then we analyzed the confusion matrix to identify which group the model is classifying better.
+For the machine learning part, we utilized logistic regression to perform a binary classification of one-time customers and annual customers. Based on five variables used the model achieved an 87% accuracy, which indicates that it is performing well in detecting the behaviour of one-time and annual customers. We also applied McFadden and AUC/ROC tests to verify the performance of the model, then we analyzed the confusion matrix to identify which group the model is classifying better.
 
 Based on our analysis, it seems that the model is better at classifying annual customers. For deeper understanding, the false posative of the entire population are only 700. That means 700 one-time customers were classified to be annual members. As a result, we suggest that the company should focus its advertising efforts on targeting these 700 one-time customers who have a high probability of becoming annual members, rather than randomly advertising to all users. By targeting these individuals, the company can increase its number of annual members and improve its revenue.
 
